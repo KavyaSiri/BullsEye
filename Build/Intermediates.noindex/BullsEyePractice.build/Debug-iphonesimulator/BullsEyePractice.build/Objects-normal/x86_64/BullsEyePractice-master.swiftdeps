@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)"
+options: "30012559bc2d927dbdd4465e7b0d8be3"
+build_time: [1601972194, 588680000]
+inputs:
+  "/Users/macmini/Desktop/siri/siri/BullsEYE/BullsEyePractice/BullsEyePractice/ViewController.swift": [1601967598, 32066387]
+  "/Users/macmini/Desktop/siri/siri/BullsEYE/BullsEyePractice/BullsEyePractice/AppDelegate.swift": [1597330529, 247482012]
+  "/Users/macmini/Desktop/siri/siri/BullsEYE/BullsEyePractice/BullsEyePractice/AboutViewController.swift": [1601972194, 504520422]
+  "/Users/macmini/Desktop/siri/siri/BullsEYE/BullsEyePractice/BullsEyePractice/SceneDelegate.swift": [1597330529, 261559228]
