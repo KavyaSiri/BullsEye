@@ -14,7 +14,7 @@ provides-dynamic-lookup:
 - "sceneWillResignActive"
 - "window"
 depends-top-level:
-- !private "AppDelegate"
+- "AppDelegate"
 - "CastingPrecedence"
 - "SceneDelegate"
 - !private "UIApplication"
@@ -22,15 +22,15 @@ depends-top-level:
 - "UIScene"
 - "UISceneSession"
 - "UIWindow"
-- !private "UIWindowScene"
+- "UIWindowScene"
 - "UIWindowSceneDelegate"
 depends-member:
 - !private ["16BullsEyePractice11AppDelegateC", "saveContext"]
+- ["SK", ""]
 - ["s7CVarArgP", "ConnectionOptions"]
 - !private ["s7CVarArgP", "UIApplication"]
 - ["s7CVarArgP", ""]
 - !private ["s7CVarArgP", "delegate"]
-- !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "saveContext"]
 - ["s7CVarArgP", "scene"]
 - ["s7CVarArgP", "sceneDidBecomeActive"]
@@ -43,11 +43,12 @@ depends-member:
 - ["s7CVarArgP", "stateRestorationActivityForScene"]
 - ["s7CVarArgP", "window"]
 - ["s7CVarArgP", "windowScene"]
+- ["Sl", ""]
+- ["SL", ""]
 - ["s28CustomDebugStringConvertibleP", "ConnectionOptions"]
 - !private ["s28CustomDebugStringConvertibleP", "UIApplication"]
 - ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s28CustomDebugStringConvertibleP", "delegate"]
-- !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "saveContext"]
 - ["s28CustomDebugStringConvertibleP", "scene"]
 - ["s28CustomDebugStringConvertibleP", "sceneDidBecomeActive"]
@@ -64,7 +65,6 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "UIApplication"]
 - ["s23CustomStringConvertibleP", ""]
 - !private ["s23CustomStringConvertibleP", "delegate"]
-- !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "saveContext"]
 - ["s23CustomStringConvertibleP", "scene"]
 - ["s23CustomStringConvertibleP", "sceneDidBecomeActive"]
@@ -81,7 +81,6 @@ depends-member:
 - !private ["SQ", "UIApplication"]
 - ["SQ", ""]
 - !private ["SQ", "delegate"]
-- !private ["SQ", "init"]
 - !private ["SQ", "saveContext"]
 - ["SQ", "scene"]
 - ["SQ", "sceneDidBecomeActive"]
@@ -94,11 +93,14 @@ depends-member:
 - ["SQ", "stateRestorationActivityForScene"]
 - ["SQ", "window"]
 - ["SQ", "windowScene"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
 - ["SH", "ConnectionOptions"]
 - !private ["SH", "UIApplication"]
 - ["SH", ""]
 - !private ["SH", "delegate"]
-- !private ["SH", "init"]
 - !private ["SH", "saveContext"]
 - ["SH", "scene"]
 - ["SH", "sceneDidBecomeActive"]
@@ -111,6 +113,8 @@ depends-member:
 - ["SH", "stateRestorationActivityForScene"]
 - ["SH", "window"]
 - ["SH", "windowScene"]
+- ["s25LosslessStringConvertibleP", ""]
+- ["So8NSCodingP", ""]
 - !private ["So8NSObjectC", "AppDelegate"]
 - ["So8NSObjectC", "ConnectionOptions"]
 - !private ["So8NSObjectC", "UIApplication"]
@@ -118,6 +122,7 @@ depends-member:
 - ["So8NSObjectC", "UISceneSession"]
 - ["So8NSObjectC", "UIWindow"]
 - !private ["So8NSObjectC", "UIWindowScene"]
+- ["So8NSObjectC", ""]
 - !private ["So8NSObjectC", "delegate"]
 - ["So8NSObjectC", "init"]
 - !private ["So8NSObjectC", "saveContext"]
@@ -132,12 +137,18 @@ depends-member:
 - ["So8NSObjectC", "stateRestorationActivityForScene"]
 - ["So8NSObjectC", "window"]
 - ["So8NSObjectC", "windowScene"]
+- !private ["So8NSObjectP", "AppDelegate"]
 - ["So8NSObjectP", "ConnectionOptions"]
 - !private ["So8NSObjectP", "UIApplication"]
+- ["So8NSObjectP", "UIScene"]
+- ["So8NSObjectP", "UISceneSession"]
+- ["So8NSObjectP", "UIWindow"]
+- !private ["So8NSObjectP", "UIWindowScene"]
 - ["So8NSObjectP", ""]
+- ["So8NSObjectP", "deinit"]
 - !private ["So8NSObjectP", "delegate"]
-- !private ["So8NSObjectP", "init"]
-- !private ["So8NSObjectP", "saveContext"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "saveContext"]
 - ["So8NSObjectP", "scene"]
 - ["So8NSObjectP", "sceneDidBecomeActive"]
 - ["So8NSObjectP", "sceneDidDisconnect"]
@@ -155,6 +166,7 @@ depends-member:
 - ["16BullsEyePractice13SceneDelegateC", "UISceneSession"]
 - ["16BullsEyePractice13SceneDelegateC", "UIWindow"]
 - !private ["16BullsEyePractice13SceneDelegateC", "UIWindowScene"]
+- ["16BullsEyePractice13SceneDelegateC", ""]
 - ["16BullsEyePractice13SceneDelegateC", "deinit"]
 - ["16BullsEyePractice13SceneDelegateC", "init"]
 - ["16BullsEyePractice13SceneDelegateC", "scene"]
@@ -167,15 +179,25 @@ depends-member:
 - ["16BullsEyePractice13SceneDelegateC", "stateRestorationActivityForScene"]
 - ["16BullsEyePractice13SceneDelegateC", "window"]
 - ["16BullsEyePractice13SceneDelegateC", "windowScene"]
+- ["ST", ""]
+- ["s16TextOutputStreamP", ""]
+- ["s20TextOutputStreamableP", ""]
 - !private ["So13UIApplicationC", "delegate"]
 - !private ["So13UIApplicationC", "shared"]
-- !private ["So21UIApplicationDelegateP", "saveContext"]
+- ["So21UIApplicationDelegateP", "saveContext"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "AppDelegate"]
 - ["So30UIPasteConfigurationSupportingP", "ConnectionOptions"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIApplication"]
+- ["So30UIPasteConfigurationSupportingP", "UIScene"]
+- ["So30UIPasteConfigurationSupportingP", "UISceneSession"]
+- ["So30UIPasteConfigurationSupportingP", "UIWindow"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIWindowScene"]
 - ["So30UIPasteConfigurationSupportingP", ""]
+- ["So30UIPasteConfigurationSupportingP", "deinit"]
 - !private ["So30UIPasteConfigurationSupportingP", "delegate"]
-- !private ["So30UIPasteConfigurationSupportingP", "init"]
-- !private ["So30UIPasteConfigurationSupportingP", "saveContext"]
+- ["So30UIPasteConfigurationSupportingP", "init"]
+- ["So30UIPasteConfigurationSupportingP", "saveContext"]
 - ["So30UIPasteConfigurationSupportingP", "scene"]
 - ["So30UIPasteConfigurationSupportingP", "sceneDidBecomeActive"]
 - ["So30UIPasteConfigurationSupportingP", "sceneDidDisconnect"]
@@ -209,12 +231,18 @@ depends-member:
 - ["So11UIResponderC", "stateRestorationActivityForScene"]
 - ["So11UIResponderC", "window"]
 - ["So11UIResponderC", "windowScene"]
+- !private ["So30UIResponderStandardEditActionsP", "AppDelegate"]
 - ["So30UIResponderStandardEditActionsP", "ConnectionOptions"]
 - !private ["So30UIResponderStandardEditActionsP", "UIApplication"]
+- ["So30UIResponderStandardEditActionsP", "UIScene"]
+- ["So30UIResponderStandardEditActionsP", "UISceneSession"]
+- ["So30UIResponderStandardEditActionsP", "UIWindow"]
+- !private ["So30UIResponderStandardEditActionsP", "UIWindowScene"]
 - ["So30UIResponderStandardEditActionsP", ""]
+- ["So30UIResponderStandardEditActionsP", "deinit"]
 - !private ["So30UIResponderStandardEditActionsP", "delegate"]
-- !private ["So30UIResponderStandardEditActionsP", "init"]
-- !private ["So30UIResponderStandardEditActionsP", "saveContext"]
+- ["So30UIResponderStandardEditActionsP", "init"]
+- ["So30UIResponderStandardEditActionsP", "saveContext"]
 - ["So30UIResponderStandardEditActionsP", "scene"]
 - ["So30UIResponderStandardEditActionsP", "sceneDidBecomeActive"]
 - ["So30UIResponderStandardEditActionsP", "sceneDidDisconnect"]
@@ -227,8 +255,11 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "window"]
 - ["So30UIResponderStandardEditActionsP", "windowScene"]
 - ["So7UISceneC", "ConnectionOptions"]
+- ["So7UISceneC", ""]
 - !private ["So15UISceneDelegateP", "UIApplication"]
 - ["So15UISceneDelegateP", ""]
+- ["So15UISceneDelegateP", "deinit"]
+- ["So15UISceneDelegateP", "init"]
 - ["So15UISceneDelegateP", "scene"]
 - ["So15UISceneDelegateP", "sceneDidBecomeActive"]
 - ["So15UISceneDelegateP", "sceneDidDisconnect"]
@@ -239,12 +270,18 @@ depends-member:
 - ["So15UISceneDelegateP", "stateRestorationActivityForScene"]
 - ["So15UISceneDelegateP", "window"]
 - ["So15UISceneDelegateP", "windowScene"]
+- !private ["So23UIUserActivityRestoringP", "AppDelegate"]
 - ["So23UIUserActivityRestoringP", "ConnectionOptions"]
 - !private ["So23UIUserActivityRestoringP", "UIApplication"]
+- ["So23UIUserActivityRestoringP", "UIScene"]
+- ["So23UIUserActivityRestoringP", "UISceneSession"]
+- ["So23UIUserActivityRestoringP", "UIWindow"]
+- !private ["So23UIUserActivityRestoringP", "UIWindowScene"]
 - ["So23UIUserActivityRestoringP", ""]
+- ["So23UIUserActivityRestoringP", "deinit"]
 - !private ["So23UIUserActivityRestoringP", "delegate"]
-- !private ["So23UIUserActivityRestoringP", "init"]
-- !private ["So23UIUserActivityRestoringP", "saveContext"]
+- ["So23UIUserActivityRestoringP", "init"]
+- ["So23UIUserActivityRestoringP", "saveContext"]
 - ["So23UIUserActivityRestoringP", "scene"]
 - ["So23UIUserActivityRestoringP", "sceneDidBecomeActive"]
 - ["So23UIUserActivityRestoringP", "sceneDidDisconnect"]
@@ -258,6 +295,8 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "windowScene"]
 - !private ["So21UIWindowSceneDelegateP", "UIApplication"]
 - ["So21UIWindowSceneDelegateP", ""]
+- ["So21UIWindowSceneDelegateP", "deinit"]
+- ["So21UIWindowSceneDelegateP", "init"]
 - ["So21UIWindowSceneDelegateP", "scene"]
 - ["So21UIWindowSceneDelegateP", "sceneDidBecomeActive"]
 - ["So21UIWindowSceneDelegateP", "sceneDidDisconnect"]
@@ -268,11 +307,12 @@ depends-member:
 - ["So21UIWindowSceneDelegateP", "stateRestorationActivityForScene"]
 - ["So21UIWindowSceneDelegateP", "window"]
 - ["So21UIWindowSceneDelegateP", "windowScene"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - ["10Foundation27_KeyValueCodingAndObservingP", "ConnectionOptions"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIApplication"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "saveContext"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "scene"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "sceneDidBecomeActive"]
@@ -289,7 +329,6 @@ depends-member:
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIApplication"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "delegate"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "saveContext"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "scene"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sceneDidBecomeActive"]
@@ -304,16 +343,29 @@ depends-member:
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "windowScene"]
 depends-nominal:
 - !private "16BullsEyePractice11AppDelegateC"
+- "SK"
 - "s7CVarArgP"
+- "Sl"
+- "SL"
 - "s28CustomDebugStringConvertibleP"
 - "s23CustomStringConvertibleP"
 - "SQ"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
 - "SH"
+- "s25LosslessStringConvertibleP"
+- "So8NSCodingP"
 - "So8NSObjectC"
 - "So8NSObjectP"
 - "16BullsEyePractice13SceneDelegateC"
+- "ST"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
 - !private "So13UIApplicationC"
-- !private "So21UIApplicationDelegateP"
+- "So21UIApplicationDelegateP"
+- "So18UIFocusEnvironmentP"
 - "So30UIPasteConfigurationSupportingP"
 - "So11UIResponderC"
 - "So30UIResponderStandardEditActionsP"
@@ -321,50 +373,44 @@ depends-nominal:
 - "So15UISceneDelegateP"
 - "So23UIUserActivityRestoringP"
 - "So21UIWindowSceneDelegateP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - "10Foundation37_KeyValueCodingAndObservingPublishingP"
 depends-dynamic-lookup:
 depends-external:
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreData.swiftmodule/x86_64.swiftinterface"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
 interface-hash: "127201c8c716b7030f8c10092b30daff"
